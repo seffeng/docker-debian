@@ -1,15 +1,27 @@
 # Docker Debian
 
-修改源为中国科学技术大学(http://mirrors.ustc.edu.cn/)
+## 版本
 
-常用命令：
+```
+debian: ^10.0
+```
+
+## 功能
+
+```shell
+1、修改源为：中国科学技术大学(http://mirrors.ustc.edu.cn/)
+
+2、修改时区为：Asia/Shanghai
+```
+
+## 常用命令：
 
 ```sh
 # 拉取镜像
 $ docker pull seffeng/debian
 
 # 运行
-$ docker run --name debian-test -id seffeng/debian
+$ docker run --name test -id seffeng/debian
 
 # 查看正在运行的容器
 $ docker ps
@@ -31,5 +43,23 @@ $ docker images
 
 # 删除镜像
 $ docker rmi [IMAGE ID]
+
+# 构建镜像
+$ docker build -t [IMAGE NAME] .
+
+# 复制本机文件到容器
+$ docker cp /root/file [CONTAINER ID]:/root/file
+
+# 复制容器文件到本机
+$ docker cp [CONTAINER ID]:/root/file /root/file
 ```
 
+## 网络
+
+```shell
+# 查看网络
+$ docker network ls
+
+# 创建网络
+$ docker network create [NAME]
+```
