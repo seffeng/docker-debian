@@ -3,8 +3,9 @@
 ## 版本
 
 ```
-debian: ^10.0
+debian: ^11.1
 ```
+* [bullseye](https://github.com/seffeng/docker-debian) , [11](https://github.com/seffeng/docker-debian) , [latest](https://github.com/seffeng/docker-debian)
 
 ## 功能
 
