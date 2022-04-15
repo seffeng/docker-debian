@@ -2,11 +2,7 @@
 
 ## 版本
 
-```
-debian: ^10.11
-```
-* [bullseye , 11 , 11,2 , latest](https://github.com/seffeng/docker-debian)
-* [10 , 10.11](https://github.com/seffeng/docker-debian/tree/10.x)
+* [10 , 10.12](https://github.com/seffeng/docker-debian/tree/10.x)
 
 ## 功能
 
@@ -20,7 +16,7 @@ debian: ^10.11
 
 ```sh
 # 拉取镜像
-$ docker pull seffeng/debian
+$ docker pull seffeng/debian:10
 
 # 运行
 $ docker run --name test -id seffeng/debian
