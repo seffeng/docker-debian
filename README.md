@@ -2,7 +2,7 @@
 
 ## 版本
 
-* [bookworm , 12 , latest](https://github.com/seffeng/docker-debian/tree/12.x)
+* [bookworm , 12](https://github.com/seffeng/docker-debian/tree/12.x)
 
 ## 功能
 
