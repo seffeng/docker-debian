@@ -2,7 +2,7 @@
 
 ## 版本
 
-* [bullseye , 11 , latest](https://github.com/seffeng/docker-debian/tree/11.x)
+* [bullseye , 11](https://github.com/seffeng/docker-debian/tree/11.x)
 
 ## 功能
 
