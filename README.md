@@ -2,7 +2,7 @@
 
 ## 版本
 
-* [bullseye , 11 , 11.6 , latest](https://github.com/seffeng/docker-debian/tree/11.x)
+* [bookworm , 12 , latest](https://github.com/seffeng/docker-debian/tree/12.x)
 
 ## 功能
 
