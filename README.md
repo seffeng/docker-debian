@@ -2,7 +2,8 @@
 
 ## 版本
 
-* [bookworm , 12 , 12.8 , latest](https://github.com/seffeng/docker-debian/tree/12.x)
+* [trixie , 13 , 13.8 , latest](https://github.com/seffeng/docker-debian/tree/13.x)
+* [bookworm , 12 , 12.8](https://github.com/seffeng/docker-debian/tree/12.x)
 * [bullseye , 11 , 11.11](https://github.com/seffeng/docker-debian/tree/11.x)
 * [buster , 10 , 10.13](https://github.com/seffeng/docker-debian/tree/10.x)
 
